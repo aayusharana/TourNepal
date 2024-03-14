@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       <div className="buttom">
-        <div>abc</div>
+        
         <div>
           <h4>working Links</h4>
           <a href="/">About</a>
