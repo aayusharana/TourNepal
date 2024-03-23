@@ -1,3 +1,4 @@
+
 import "./HeroStyles.css"
 function Hero(props){
     return(
@@ -8,8 +9,9 @@ function Hero(props){
         <h1>{props.title}</h1>
         <p1>{props.text}</p1>
             <a href={props.url} className=
-            {props.btnClass}>
+            {props.btnClass}>   
             {props.buttonText}
+            
             </a>
       </div>
       </div>

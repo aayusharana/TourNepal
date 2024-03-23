@@ -19,7 +19,7 @@ function Contact(){
     btnClass="hide"
     />
  <ConntactForm/>
-      <Footer/>
+      {/* <Footer/> */}
        </>
     )
    }

@@ -1,3 +1,4 @@
+
 import Adventure from "../component/Adventure";
 import CandF from "../component/CandF";
 import Destination from "../component/Destination";
@@ -24,6 +25,7 @@ function Home(){
     <CandF/>
     <Adventure/>
     <Footer/>
+    
     </>
  )
 }

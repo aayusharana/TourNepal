@@ -2,6 +2,8 @@ import { Component } from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
+import logoo from "../assets/logoo.jpg"
+
 
 class Navbar extends Component {
    state = {clicked: false};
@@ -11,7 +13,19 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">NepalTour</h1>
+      
+        <Link to="/">
+           <div>
+              <img
+                style={{
+                  width: "100px",
+                  height: "60px",
+                }}
+                src={logoo}
+                alt="Logo"
+             />
+          </div>
+        </Link>
 
          <div className="menu-icons" onClick=
          {this.handleClick}>
@@ -31,7 +45,9 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button>Sign Up</button>
+         <Link to="/Login">
+         <button>Login</button>
+         </Link>
         </ul>
       </nav>
     );
