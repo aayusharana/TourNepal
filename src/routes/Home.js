@@ -17,7 +17,7 @@ function Home(){
     title="The journey of a thousand miles begins with a single step"
     text="choose your favourite destination."
     buttonText="Travel Plan"
-    url="/"
+    url="TravelPlan"
     btnClass="show"
     />
     <Destination/>
