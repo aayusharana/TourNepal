@@ -46,7 +46,7 @@ class Navbar extends Component {
             );
           })}
          <Link to="/Login">
-         <button>Login</button>
+         {/* <button>Login</button> */}
          </Link>
         </ul>
       </nav>

@@ -2,7 +2,9 @@ import React from 'react'
 import "./LooginFormStyles.css"
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
+
 const LooginForm = () => {
+  
 
   return (
     <div className='wrapper'>

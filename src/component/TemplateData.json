@@ -17,5 +17,43 @@
         "image": "https://web.nepalnews.com/storage/story/480X320/ManangDhukurPokhari1614605161_480X320.jpg",
         "title": "Manang",
         "price": 40000
+    },
+   
+    {
+        "id": 5,
+        "image": "https://holidaystonepal.in/media/files/Blogs/Pashupatinath-Temple-Photos/Pashupatinath-Temple.png",
+        "title": "Pashupatinath",
+        "price": 40000
+    },
+    {
+        "id": 6,
+        "image": "https://images.fineartamerica.com/images-medium-large-5/patan-durbar-square-patan-nepal-feng-wei-photography.jpg",
+        "title": "patan durbar square",
+        "price": 40000
+    },
+    {
+        "id": 7,
+        "image": "https://hsj.com.np/uploads/0000/1/2023/08/06/bhaktapur-rainy.jpg",
+        "title": "Bhaktapur",
+        "price": 40000
+    },
+    {
+        "id": 8,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Swayambhunath_2018.jpg/1200px-Swayambhunath_2018.jpg",
+        "title": "swayambhunath",
+        "price": 40000
+    },
+    {
+        "id": 9,
+        "image": "https://whatthenepal.com/wp-content/uploads/2023/08/sanjay-hona-2DzAu5J1Bc8-unsplash_2000x.jpg",
+        "title": "Tilicho",
+        "price": 40000
+    },
+    {
+        "id": 10,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVC5Jfx--RjlST19wIuwQdp0lUNwDuEBECPQxyH_aLWCZLXx6vAU158IGyXVAVgTt0ZXA&usqp=CAU",
+        "title": "Taplejung",
+        "price": 40000
     }
 ]
+
