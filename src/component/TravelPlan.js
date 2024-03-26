@@ -7,6 +7,7 @@ const TravelPlan = () => {
    
   return (
     <>
+    
      <div className="templateContainer">
         <div className="searchInput_Container">
           <input id="searchInput" type="text" placeholder="Search here..."onChange={(event) => {
@@ -38,6 +39,7 @@ const TravelPlan = () => {
 
          </div>
         </div>
+        
     </>
   )
 }

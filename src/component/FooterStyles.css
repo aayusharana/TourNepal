@@ -1,52 +1,81 @@
-.footer{
+.footer {
     padding: 4rem 6rem;
     background-color: black;
     color: white;
+    border-top: 2px solid aquamarine; /* Adding a border on top for decoration */
 }
-.top{
+
+.top {
     display: flex;
     align-items: center;
     text-align: start;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.top i{
+
+.top i {
     color: white;
     font-size: 2rem;
     margin-left: 1rem;
+    transition: color 0.3s ease; /* Adding a smooth color transition on hover */
 }
-.top i:hover{
+
+.top i:hover {
     color: aquamarine;
 }
- .buttom{
+
+.bottom {
     padding-top: 2rem;
     text-align: start;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
- }
- .buttom div{
+}
+
+.bottom div {
     display: flex;
     flex-direction: column;
- }
- .buttom h4{
+}
+
+.bottom h4 {
     font-size: 1.3rem;
     padding: 1rem 0 .8rem 0;
- }
- .buttom a{
+    position: relative; /* Adding a relative position for pseudo-element decoration */
+}
+
+.bottom h4::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%; /* Adjust the width of the pseudo-element */
+    height: 2px; /* Adjust the height of the pseudo-element */
+    background-color: aquamarine; /* Adding a decorative line under the heading */
+}
+
+.bottom a {
     text-decoration: none;
     color: white;
     padding-bottom: .4rem;
     font-size: 1.1rem;
- }
- @media screen and (max-width:850px){
-    .footer{
+    transition: color 0.3s ease; /* Adding a smooth color transition on hover */
+}
+
+.bottom a:hover {
+    color: aquamarine;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
         padding: 4rem 2rem;
     }
-    .footer i{
+    .footer i {
         margin: 1rem 1rem 0 0;
     }
-    .buttom div{
+    .bottom div {
         width: 50%;
     }
- }
+}
+.social-icons{
+    color: #FFF;
+}
