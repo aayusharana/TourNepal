@@ -2,6 +2,7 @@
 import React, {useState} from "react";
 import "./TravelPlanStyles.css"
 import data from "./TemplateData.json"
+import Navbar from "./Navbar";
 const TravelPlan = () => {
     const [searchTerm, setSearchTerm] = useState("");
    
@@ -36,6 +37,7 @@ const TravelPlan = () => {
                 )
               })
             }
+            <Navbar/>
 
          </div>
         </div>

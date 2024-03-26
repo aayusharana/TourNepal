@@ -6,9 +6,10 @@ body {
 }
 
 .templateContainer {
-    margin: 5% auto;
+    margin: 10% auto 5%; /* Adjust the top and bottom margins as needed */
     max-width: 1200px;
 }
+
 
 .searchInput_Container {
     display: flex;
