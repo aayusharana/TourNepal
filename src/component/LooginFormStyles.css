@@ -3,7 +3,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.6); 
 }
 
 

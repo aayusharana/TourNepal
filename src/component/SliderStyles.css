@@ -1,0 +1,35 @@
+.testimonial-slider {
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .testimonial-item {
+    flex: 0 0 100%;
+  }
+  
+  .testimonial-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .testimonial-details {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+  }
+  
+  .quote {
+    font-style: italic;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  
