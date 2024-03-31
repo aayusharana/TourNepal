@@ -6,7 +6,7 @@ const testimonials = [
     id: 1,
     name: "Himalayan Trip Nepal",
     quote: "Website: https://www.himalayantripnepal.com.",
-    image: "https://himalayatrip.com/wp-content/uploads/2023/11/everest-base-camp-trek-2023-jpg.webp"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pRPI9uuuFlAWxg1SKxop74zEPhK615g0MscJaQfNEthGNKlHZidxdJmYT3tQc6TjoyM&usqp=CAU"
   },
   {
     id: 2,
